@@ -7,4 +7,18 @@ let annualExpenses = 0
 for(let i = 0; i < weeklyExpenseQuestions.length; i++){
     let answer = parseFloat(window.prompt(weeklyExpenseQuestions[i]))
     weeklyExpenses = weeklyExpenses + answer
+
+console.log(answer)
+}
+// monthly
+for(let i = 0; i < monthlyExpenseQuestions.length; i++){
+    let answer = parseFloat(window.prompt(monthleyExpenseQuestions[i]))
+    monthlyExpenses = monthlyExpenses + answer
+console.log(answer)
+}
+for(let i = 0; i < annualExpenseQuestions.length; i++){
+    let answer = parseFloat(window.prompt(annualExpenseQuestions[i]))
+    annualExpenses = annualExpenses + answer
+
+console.log(answer)
 }
